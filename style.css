@@ -26,7 +26,7 @@ body {
   justify-content: center;
   margin: 0.5rem;
   padding: 0.5rem;
-  border-right: 2px solid  hsl(200, 100%, 20%);
+  border-right: 4px solid  hsl(200, 100%, 20%);
 }
 
 .weather-icon {
@@ -41,7 +41,7 @@ body {
 }
 
 .header-current-temp {
-  font-size: 2rem;
+  font-size: 3rem;
   margin-left: 1rem;
 }
 
@@ -63,7 +63,7 @@ body {
 .label {
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 0.6rem;
+  font-size: 1rem;
   color:  hsl(200, 100%, 20%);;
 }
 
@@ -84,8 +84,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 1px solid  hsl(200, 100%, 20%);
-  border-radius: 0.25rem;
+  border: 2px solid  hsl(200, 100%, 20%);
+  border-radius: 0.5rem;
   padding: 0.25rem;
 }
 
